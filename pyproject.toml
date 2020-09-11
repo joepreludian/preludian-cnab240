@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "preludian-cnab240"
+version = "0.1.0"
+description = "A simple project for reading Brazillian Boletos CNAB 240"
+authors = ["Jonhnatha Trigueiro <joepreludian@gmail.com>"]
+license = "GPL-3.0-or-later"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Console",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
+]
+
+[tool.poetry.urls]
+"repository" = "https://github.com/joepreludian/preludian-cnab240"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.1"
+pytest-cov = "^2.10.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
